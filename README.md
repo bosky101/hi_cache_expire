@@ -1,4 +1,5 @@
-=== hi_cache_expire
+hi_cache_expire
+===============
 # where do we use this cache ?
 hi_cache_expire is only worried about peformance for the most used values used in your webapp. You can easily designate user or your own config by using a bucket, then have subkey's called key's common in many two-dimensional datastores. So regardless of where your data is coming from, if you want it fast & predominantly use erlang for serving content/data, then hi_cache_expire is for you.
 
